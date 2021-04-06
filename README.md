@@ -1,6 +1,6 @@
-A chatBot is a program that simulates a conversation between a user and a computer.
+**A chatBot is a program that simulates a conversation between a user and a computer.**
 
-Instalations
+*Installations*
 
 pip3 install chatterbot==1.0.2
 
