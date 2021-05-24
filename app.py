@@ -3,10 +3,11 @@ from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from pytz import UTC
 
+#, "chatterbot.logic.BestMatch"
 my_bot = ChatBot( 
     name = "Bantu",
     read_only=True,
-    logical_adapters = ["chatterbot.corpus.english", "chatterbot.logic.BestMatch"]
+    logical_adapters = ["chatterbot.logic.BestMatch"]
 )
 
 small_talk = ['hi there!',
