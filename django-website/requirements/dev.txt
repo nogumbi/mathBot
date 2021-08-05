@@ -1,2 +1,0 @@
-#Everything needed in production requirements
--r prod.txt
